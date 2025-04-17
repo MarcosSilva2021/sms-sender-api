@@ -6,5 +6,7 @@ jobs:
   deploy:
     runs-on: ubuntu_latest
     steps:
-      - name: Exibir um texto
-      - run: "@echo 'Olá mundo Devops'"
+      - name: Exibir um codigo do git
+      - run: action/checkout@
+
+
