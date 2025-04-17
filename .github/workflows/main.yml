@@ -1,10 +1,10 @@
 name: aula Devops
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 jobs:
   deploy:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps:
-      -name: Exibir um texto
-      run: echo "Olá mundo Devops"
+      - name: Exibir um texto
+      - run: "@echo 'Olá mundo Devops'"
